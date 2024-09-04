@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* colors */
+:root {
+    align-items: center;
+    background-color:rgb(131, 106, 154);
+    --font-color:black;
+    --bg-form: rgba(255, 255, 255, 0.2);
+    --bg-shadow-form: rgba(31, 38, 135, 0.37);
+    --form-border: rgba(255, 255, 255, 0.18);
+    --btn-submit-bg: linear-gradient(to right, #2fd95d, #38ef7d);
+    --btn-reset-bg: linear-gradient(to right, #2998e2, #85bbd6);
+}
+
+* {
+     align-items: center; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    align-items: center;
+    background-color: black;
+    background: var(--bg-gradinet);
+    color: var(--font-color);
+}
+form {
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 var(--bg-shadow-form);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 3px;
+    border: 1px solid var(--form-border);
+}
+input {
+    align-items: center;
+    margin-bottom: 8px;
+}
+label {
+    align-items: center;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    align-items: center;
+    padding: 3px;
+    border: 0.9px solid lightgray;
+}
+
+table,
+th,
+td {
+    align-items: center;
+    padding: 3px;
+    border-collapse: collapse;
+    border-bottom: 1px solid silver;
+}
+.form{
+    width: 950px;
+}
+.box{
+    
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: left;
+    align-items: center;
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    cursor:pointer;
+   border-radius:5px; 
+   background-color: rgb(155, 144, 144);
+
+}
+.box input{
+    text-align:center;}
